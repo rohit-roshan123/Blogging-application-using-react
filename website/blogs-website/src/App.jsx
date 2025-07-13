@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Pages/Home/Home'
 import Footer from './Components/Footer/Footer'
 import CategoryBlogs from './Pages/CategoryBlogs/CategoryBlogs'
+import DedicatedBlog from './Pages/DedicatedBlog/DedicatedBlog'
 
 function App() {
   
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <CategoryBlogs />
+    <DedicatedBlog />
     <Footer />
 
       
